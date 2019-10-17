@@ -39,7 +39,7 @@
     position: absolute;
     left: 230px;
     top: 150px;
-    animation: more 0.8s linear infinite alternate;
+    animation: sofa01 0.8s linear infinite alternate;
 }
 .screen01 .fly{
     position: absolute;
@@ -53,9 +53,6 @@
     from{
         transform: translateY(-30px);
     }
-    /*50%{
-        transform: translateY(50px);
-    }*/
     to{
         transform: translateY(30px);
     }
@@ -116,7 +113,6 @@
 }
 .screen02 .text .text01{}
 .screen02 .text .text02{
-    /*display: none;*/
     position: absolute;
     opacity: 0;
 }
@@ -139,14 +135,12 @@
     transition: all 1s linear 1s;
 }
 .screen02.now .goods{
-    /*none 清空所有转换属性*/
     transform: none;
     transition: all 1s linear 2s;
 }
 
 @keyframes input02 {
     0%{
-        /*初始元素的位子*/
         opacity: 1;
         transform: translate(2000px,130px);
     }
@@ -171,7 +165,6 @@
     }
     to{
         opacity: 1;
-        /*沙发下移*/
         transform: translate(-80px,700px);
     }
 }
@@ -499,8 +492,6 @@
 .screen06 .car img{
     position: absolute;
     opacity:0;
-/*    left: 0;
-    top: 0;*/
 }
 .screen06 .car .carImg{
     opacity: 1;
@@ -607,7 +598,6 @@
 .screen07 .star img{
     float: left;
     margin-right: 6px;
-    /*display: none;*/
     opacity: 0;
 }
 .screen07 .star.show img{
